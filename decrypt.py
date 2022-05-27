@@ -9,8 +9,13 @@ Example:
 
 def decrypt(encrypted_text: list, n: int):
 
-    # arr_temp_1 = []
-    # arr_temp_2 = []
+    if encrypted_text == '':
+        return encrypted_text
+    if encrypted_text is None:
+        return encrypted_text
+    if (n == '') or (int(n) <= 0):
+        return encrypted_text
+
     encrypted_text = list(encrypted_text)
     text_len = len(encrypted_text)
 
