@@ -3,7 +3,6 @@
 Example:
 ("bdfhjacegi", 1) -> "abcdefghij"
 ("dhaeibfjcg", 2) -> "bdfhjacegi" -> "abcdefghij"
-abcde -> bdace
 
 '''
 
